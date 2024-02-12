@@ -1,0 +1,84 @@
+body {
+  font-family: times !important;
+}
+.backgroundImage{
+  background-image: url('../img/faravi-ff.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header_option {
+  background-color: #124b65;
+}
+
+.header_option .nav_bar ul li a {
+  color: white !important;
+  /* border: 1px solid red; */
+}
+.header_option ul li a:hover {
+  color: rgb(28, 233, 28) !important;
+}
+.developer_derails {
+  padding: 120px 0px;
+}
+/* .persona_heading h2 {
+  padding: 100px 0px;
+} */
+.progress_bar_control {
+  margin: 0 auto;
+}
+.brandsColor{
+  color:  #124b65;
+}
+.gratingsColor{
+  color:  #00004f;
+}
+.speech {
+  /* padding-left: 300px; */
+  padding: 10px 300px;
+  color:  #124b65;
+}
+.web_hover:hover {
+  /* color: #00004f; */
+  color: red;
+  cursor: pointer;
+}
+.btn {
+  background-color: #00004f;
+  color: white;
+  font-weight: 800;
+}
+.btn:hover {
+  color: white;
+  font-weight: 800;
+  background-color: red;
+}
+input[type="email"] {
+  border: none;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.btn_footer {
+  width: 100%;
+  text-align: center;
+  background-color: red !important;
+  color: aliceblue;
+  font-weight: bold;
+}
+.myPic {
+  position: absolute;
+  overflow: hidden;
+  height: 90%;
+  top: 7%;
+  left: 8%;
+  width: 84%;
+}
+.phtooFrame {
+  position: relative;
+  margin: 0;
+  z-index: 999;
+}
+.frameHeader {
+  background-color: #00004f;
+}
