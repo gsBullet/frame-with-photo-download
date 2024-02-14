@@ -19,18 +19,18 @@ const PhotoFrame = () => {
 
   const handleDownload = () => {
     const photoFrameContent = document.querySelector(".photo-frame");
-  
+
     // Use html2canvas to capture the content of the .photo-frame div
     html2canvas(photoFrameContent).then((canvas) => {
       // Convert canvas content to a data URL representing a PNG image
       const url = canvas.toDataURL("image/png");
-  
+
       // Create a link element and trigger download
       const link = document.createElement("a");
       link.download = "photo_frame.png";
       link.href = url;
       link.click();
-      setImageUrl(null)
+      setImageUrl(null);
     });
   };
 
@@ -76,11 +76,7 @@ const PhotoFrame = () => {
             <div className="card-body shadow h-100">
               <div className="photo-frame">
                 <img className="myPic border-0" src={imageUrl} alt="" />
-                <img
-                  className="phtooFrame w-100"
-                  src="./img/Facebook-Frame.png"
-                  alt=""
-                />
+                <img className="phtooFrame w-100" src="./img/47as.png" alt="" />
               </div>
             </div>
           </div>

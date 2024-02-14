@@ -47,6 +47,7 @@ const EasyCrop = ({ imageUrl, setOpenCrop, setImageUrl }) => {
           background: "#3333",
           height: 400,
           width: "auto",
+          my: 2,
           minWidth: { sm: 500 },
         }}
       >

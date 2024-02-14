@@ -66,6 +66,7 @@ input[type="email"] {
   color: aliceblue;
   font-weight: bold;
 }
+
 .myPic {
   position: absolute;
   overflow: hidden;
@@ -77,7 +78,13 @@ input[type="email"] {
 .phtooFrame {
   position: relative;
   margin: 0;
-  z-index: 999;
+  z-index: 9;
+}
+.nameObject{
+  position: absolute;
+  bottom: 1%;
+  z-index: 99999999999999999;
+  text-align: center;
 }
 .frameHeader {
   background-color: #00004f;
