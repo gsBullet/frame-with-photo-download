@@ -1,49 +1,13 @@
 body {
   font-family: times !important;
-}
-.backgroundImage{
-  background-image: url('../img/faravi-ff.jpg');
+
+  background-image: url("../img/islamic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header_option {
-  background-color: #124b65;
-}
 
-.header_option .nav_bar ul li a {
-  color: white !important;
-  /* border: 1px solid red; */
-}
-.header_option ul li a:hover {
-  color: rgb(28, 233, 28) !important;
-}
-.developer_derails {
-  padding: 120px 0px;
-}
-/* .persona_heading h2 {
-  padding: 100px 0px;
-} */
-.progress_bar_control {
-  margin: 0 auto;
-}
-.brandsColor{
-  color:  #124b65;
-}
-.gratingsColor{
-  color:  #00004f;
-}
-.speech {
-  /* padding-left: 300px; */
-  padding: 10px 300px;
-  color:  #124b65;
-}
-.web_hover:hover {
-  /* color: #00004f; */
-  color: red;
-  cursor: pointer;
-}
-.btn {
+/* .btn {
   background-color: #00004f;
   color: white;
   font-weight: 800;
@@ -52,7 +16,7 @@ body {
   color: white;
   font-weight: 800;
   background-color: red;
-}
+} */
 input[type="email"] {
   border: none;
   text-align: center;
@@ -66,21 +30,23 @@ input[type="email"] {
   color: aliceblue;
   font-weight: bold;
 }
+.photo-frame-1 {
+  height: 100%;
+  width: 100%;
+}
 
-.myPic {
+.photo-frame-1 .myPic {
   position: absolute;
   overflow: hidden;
-  height: 90%;
-  top: 7%;
-  left: 8%;
-  width: 84%;
+  height: 94%;
+  border: none;
 }
-.phtooFrame {
+.photo-frame-1 .phtooFrame {
   position: relative;
   margin: 0;
   z-index: 9;
 }
-.nameObject{
+.nameObject {
   position: absolute;
   bottom: 1%;
   z-index: 99999999999999999;
@@ -88,4 +54,19 @@ input[type="email"] {
 }
 .frameHeader {
   background-color: #00004f;
+}
+.cropFrame{
+  width: 100%;
+  height: 100%;
+}
+.cropFrame .myeasycrop{
+  position: absolute;
+  overflow: hidden;
+}
+.cropFrame .easycropFrame{
+  position: relative;
+  width: 50%;
+  top: 0;
+  border: 2px solid red;
+
 }
